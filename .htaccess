@@ -1,6 +1,5 @@
 RewriteEngine On
 RewriteBase /
-
 # If there are caps, set HASCAPS to true and skip next rule
 RewriteRule [A-Z] - [E=HASCAPS:TRUE,S=1]
 
