@@ -1,5 +1,3 @@
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.izugarri.eu.org$
-RewriteRule (.*) http://izugarri.eu.org/$1 [R=301,L]
-</IfModule>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.example\.com [NC]
+RewriteRule ^(.*)$ http://example.com/$1 [L,R=301]
