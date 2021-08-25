@@ -1,2 +1,2 @@
 # izu
-pruebas mionitorizando con Flashdrive
+pruebas monitorizando con Flashdrive
