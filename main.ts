@@ -4,6 +4,5 @@ Deno.serve((req) => {
   return serveDir(req, {
     fsRoot: "./", // Carpeta que contiene los archivos
     showDirListing: true,
-    pretty url: true,
   });
 });
